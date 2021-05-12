@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/home_filled"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_flags"
+                android:icon="@drawable/flag_black"
+                android:title="@string/menu_flags"/>
+        <item
+                android:id="@+id/nav_sounds"
+                android:icon="@drawable/horn"
+                android:title="@string/menu_sounds"/>
+        <item
+                android:id="@+id/nav_lights"
+                android:icon="@drawable/fishing_boat_50"
+                android:title="@string/menu_lights"/>
+        <item
+                android:id="@+id/nav_shapes"
+                android:icon="@drawable/moored_boat_50"
+                android:title="@string/menu_shapes"/>
+        <item
+                android:id="@+id/nav_maps"
+                android:icon="@drawable/map"
+                android:title="@string/menu_map"/>
+        <item
+                android:id="@+id/nav_buoys"
+                android:icon="@drawable/buoys"
+                android:title="@string/menu_buoys"/>
+    </group>
+
+</menu>

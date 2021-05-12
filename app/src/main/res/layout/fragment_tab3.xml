@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Tab1"
+        android:id="@+id/constraintLayoutTab3">
+
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout12">
+
+        <ImageView
+                android:src="@drawable/twolongblastoneshort"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogLong"
+                android:background="#00FFFFFF"
+                android:layout_gravity="start|center_vertical" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="60dp">
+
+            <TextView
+                    android:text="@string/twolongoneshortblast"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewTwoLongOneShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/twolongoneshortblastmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewTwoLongOneShortMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:src="@drawable/twolongblasttwoshort"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageTwoLongTwoShort"
+                android:background="#00FFFFFF"
+                android:layout_gravity="start|center_vertical" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/twolongtwoshortblast"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewTwoLongTwoShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/twolongtwoshortblastmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewTwoLongTwoShortMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout16"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+        <ImageView
+                android:src="@drawable/longshortlongshort"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imagelonghshortlongshort"
+                android:background="#00FFFFFF"
+                android:layout_gravity="start|center_vertical" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/iagreeblasts"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewLongShortLongShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/iagreeblastsmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewLongShortLongShortMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout17"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout16">
+
+        <ImageView
+                android:src="@drawable/longblastandthreeshort"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogOneLongThreeShort"
+                android:background="#00FFFFFF"
+                android:layout_gravity="start|center_vertical" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/fogonelongthreeshort"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogOneLongThreeShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fogonelongthreeshortmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogOneShortThreeLongMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout17"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout18">
+
+        <ImageView
+                android:src="@drawable/ic_black_circle_svgrepo_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageViewFiveShort1"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="start|center_vertical" />
+
+        <ImageView
+                android:src="@drawable/ic_black_circle_svgrepo_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageViewFiveShort2"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="start|center_vertical" />
+
+        <ImageView
+                android:src="@drawable/ic_black_circle_svgrepo_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageViewFiveShort3"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="start|center_vertical" />
+
+        <ImageView
+                android:src="@drawable/ic_black_circle_svgrepo_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageViewFiveShort4"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="start|center_vertical" />
+
+        <ImageView
+                android:src="@drawable/ic_black_circle_svgrepo_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageViewFiveShort5"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="start|center_vertical" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp">
+
+            <TextView
+                    android:text="@string/fiveshortblast"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewFiveShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fiveshortblastmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewFiveShortMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/homeFragment">
+
+    <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.example.boatbuddy.HomeFragment"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home" >
+        <action
+                android:id="@+id/action_homeFragment_to_flagFragment"
+                app:destination="@id/flagFragment"
+                app:enterAnim="@android:anim/fade_in"
+                app:exitAnim="@android:anim/fade_out"
+                app:popEnterAnim="@android:anim/anticipate_interpolator"
+                app:popExitAnim="@android:anim/anticipate_interpolator"
+                app:popUpTo="@id/homeFragment" />
+        <action
+                android:id="@+id/action_homeFragment_to_soundsFragment"
+                app:destination="@id/soundsFragment" />
+        <action
+                android:id="@+id/action_homeFragment_to_lightsFragment"
+                app:destination="@id/lightsFragment" />
+        <action
+                android:id="@+id/action_homeFragment_to_shapesFragment"
+                app:destination="@id/shapesFragment" />
+        <action
+                android:id="@+id/action_homeFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment" />
+        <action
+                android:id="@+id/action_homeFragment_to_mapsFragment"
+                app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/flagFragment"
+            android:name="com.example.boatbuddy.FlagFragment"
+            android:label="fragment_flag"
+            tools:layout="@layout/fragment_flag" />
+    <fragment
+            android:id="@+id/soundsFragment"
+            android:name="com.example.boatbuddy.SoundsFragment"
+            android:label="fragment_sounds"
+            tools:layout="@layout/fragment_sounds" >
+        <action
+                android:id="@+id/action_soundsFragment_to_tab12"
+                app:destination="@id/tab12" />
+        <action
+                android:id="@+id/action_soundsFragment_to_tab22"
+                app:destination="@id/tab22" />
+        <action
+                android:id="@+id/action_soundsFragment_to_tab322"
+                app:destination="@id/tab32" />
+    </fragment>
+    <fragment
+            android:id="@+id/tab12"
+            android:name="com.example.boatbuddy.Tab1"
+            android:label="fragment_tab1"
+            tools:layout="@layout/fragment_tab1" />
+    <fragment
+            android:id="@+id/tab22"
+            android:name="com.example.boatbuddy.Tab2"
+            android:label="fragment_tab2"
+            tools:layout="@layout/fragment_tab2" />
+    <fragment
+            android:id="@+id/tab32"
+            android:name="com.example.boatbuddy.Tab3"
+            android:label="fragment_tab3"
+            tools:layout="@layout/fragment_tab3" />
+    <fragment
+            android:id="@+id/lightsFragment"
+            android:name="com.example.boatbuddy.LightsFragment"
+            android:label="fragment_lights"
+            tools:layout="@layout/fragment_lights" />
+    <fragment
+            android:id="@+id/shapesFragment"
+            android:name="com.example.boatbuddy.ShapesFragment"
+            android:label="ShapesFragment" />
+    <fragment
+            android:id="@+id/buoysFragment"
+            android:name="com.example.boatbuddy.BuoysFragment"
+            android:label="fragment_buoys"
+            tools:layout="@layout/fragment_buoys" >
+        <action
+                android:id="@+id/action_buoysFragment_to_latMarkFragment"
+                app:destination="@id/latMarkFragment"
+                app:enterAnim="@android:anim/slide_in_left" />
+        <action
+                android:id="@+id/action_buoysFragment_to_specialMarkFragment"
+                app:destination="@id/specialMarkFragment" />
+        <action
+                android:id="@+id/action_buoysFragment_to_cardinalFragment"
+                app:destination="@id/cardinalFragment" />
+        <action
+                android:id="@+id/action_buoysFragment_to_isolatedDangerFragment"
+                app:destination="@id/isolatedDangerFragment" />
+        <action
+                android:id="@+id/action_buoysFragment_to_preferredChannelFragment"
+                app:destination="@id/preferredChannelFragment" />
+        <action
+                android:id="@+id/action_buoysFragment_to_emergencyWreckFragment"
+                app:destination="@id/emergencyWreckFragment" />
+        <action
+                android:id="@+id/action_buoysFragment_to_safeWaterFragment"
+                app:destination="@id/safeWaterFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/latMarkFragment"
+            android:name="com.example.boatbuddy.LatMarkFragment"
+            android:label="fragment_lat_mark"
+            tools:layout="@layout/fragment_lat_mark" >
+        <action
+                android:id="@+id/action_latMarkFragment_to_buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/specialMarkFragment"
+            android:name="com.example.boatbuddy.SpecialMarkFragment"
+            android:label="SpecialMarkFragment" >
+        <action
+                android:id="@+id/action_specialMarkFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/cardinalFragment"
+            android:name="com.example.boatbuddy.CardinalFragment"
+            android:label="CardinalFragment" >
+        <action
+                android:id="@+id/action_cardinalFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/isolatedDangerFragment"
+            android:name="com.example.boatbuddy.IsolatedDangerFragment"
+            android:label="IsolatedDangerFragment" >
+        <action
+                android:id="@+id/action_isolatedDangerFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/preferredChannelFragment"
+            android:name="com.example.boatbuddy.PreferredChannelFragment"
+            android:label="fragment_preferred_channel"
+            tools:layout="@layout/fragment_preferred_channel" >
+        <action
+                android:id="@+id/action_preferredChannelFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/emergencyWreckFragment"
+            android:name="com.example.boatbuddy.EmergencyWreckFragment"
+            android:label="fragment_emergency_wreck"
+            tools:layout="@layout/fragment_emergency_wreck" >
+        <action
+                android:id="@+id/action_emergencyWreckFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/safeWaterFragment"
+            android:name="com.example.boatbuddy.SafeWaterFragment"
+            android:label="SafeWaterFragment" >
+        <action
+                android:id="@+id/action_safeWaterFragment_to_buoysFragment"
+                app:destination="@id/buoysFragment"
+                app:popUpTo="@id/buoysFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/mapsFragment"
+            android:name="com.example.boatbuddy.MapsFragment"
+            android:label="fragment_maps"
+            tools:layout="@layout/fragment_maps" />
+
+</navigation>

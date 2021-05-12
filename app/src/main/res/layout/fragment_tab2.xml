@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Tab1"
+        android:id="@+id/constraintLayoutTab2">
+
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout6">
+
+        <ImageView
+                android:src="@drawable/longblast"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogLong"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="45dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="80dp">
+
+            <TextView
+                    android:text="@string/fogonelongblast"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogLong"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fogonelongblastmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogLongMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout7"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:src="@drawable/twolongblast"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogTwoLong"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp">
+
+        <TextView
+                android:text="@string/fogtwolongblast"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/textViewFogTwoLong"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical" />
+
+        <TextView
+                android:text="@string/fogtwolongblastmeaning"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/textViewFogTwoLongMeaning"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:gravity="start" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout8"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <ImageView
+                android:src="@drawable/longblastandtwoshort"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogOneLongTwoShort"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/fogonelongtwoshortblast"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/textViewFogOneLongTwoShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fogonelongtwoshortblastmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/textViewFogOneLongTwoShortMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout9"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <ImageView
+                android:src="@drawable/bell"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogBell"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/fogbell"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogBell"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fogbellmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogBellMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+        <ImageView
+                android:src="@drawable/shortlongshort"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogshortlongshort"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/fogoneshortonelongoneshort"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogShortLongshort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fogoneshortonelongoneshortmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogShortLongShortMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout11"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <ImageView
+                android:src="@drawable/longblastandthreeshort"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageFogOneLongThreeShort"
+                android:background="#00FFFFFF"
+                tools:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+            <TextView
+                    android:text="@string/fogonelongthreeshort"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogOneLongThreeShort"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical" />
+
+            <TextView
+                    android:text="@string/fogonelongthreeshortmeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/textViewFogOneShortThreeLongMeaning"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:gravity="start" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

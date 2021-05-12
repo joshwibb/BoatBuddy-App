@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BuoysFragment"
+        android:id="@+id/ConstrainLayout">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ConstraintLayout1"
+                app:layout_constraintTop_toTopOf="@+id/space3"
+                app:layout_constraintBottom_toTopOf="@+id/space3">
+
+            <TextView
+                    android:text="@string/buoystopdesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="24sp"
+                    android:layout_marginTop="16dp" />
+
+            <ImageView
+                    android:src="@drawable/waves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waves1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/waves"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintTop_toBottomOf="@+id/cardinalbutton" />
+
+            <ImageButton
+                    android:src="@drawable/cardinalbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cardinalbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="#00FFFFFF" />
+
+            <ImageButton
+                    android:src="@drawable/lateralbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lateralbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintTop_toBottomOf="@+id/waves1" />
+
+            <ImageView
+                    android:src="@drawable/waves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waves2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/waves"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintTop_toBottomOf="@+id/lateralbutton" />
+
+            <ImageButton
+                    android:src="@drawable/specialbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/specialbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintTop_toBottomOf="@+id/waves2" />
+
+            <ImageView
+                    android:src="@drawable/waves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waves3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/waves"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintTop_toBottomOf="@+id/specialbutton" />
+
+            <ImageButton
+                    android:src="@drawable/isolatedbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/isolatedbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintTop_toBottomOf="@+id/waves3" />
+
+            <ImageView
+                    android:src="@drawable/waves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waves4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/waves"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintTop_toBottomOf="@+id/isolatedbutton" />
+
+            <ImageButton
+                    android:src="@drawable/emergencywreck"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emergencywreckbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintTop_toBottomOf="@+id/waves4" />
+
+            <ImageView
+                    android:src="@drawable/waves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waves5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/waves"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintTop_toBottomOf="@+id/emergencywreckbutton" />
+
+            <ImageButton
+                    android:src="@drawable/preferredchannel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/preferredchannelbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintTop_toBottomOf="@+id/waves5" />
+
+            <ImageView
+                    android:src="@drawable/waves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waves6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/waves"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintTop_toBottomOf="@+id/preferredchannelbutton" />
+
+            <ImageButton
+                    android:src="@drawable/safewater"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/safewaterbutton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    app:layout_constraintTop_toBottomOf="@+id/waves6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

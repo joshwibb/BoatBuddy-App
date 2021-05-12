@@ -1,0 +1,118 @@
+<resources>
+    <!--NAV DRAWER-->
+    <string name="app_name">BoatBuddy</string>
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="nav_header_title">Boat Buddy</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_flags">Flags</string>
+    <string name="menu_sounds">Sounds</string>
+    <string name="menu_lights">Lights</string>
+    <string name="menu_shapes">Day Shapes</string>
+    <string name="menu_map">Maps</string>
+    <string name="menu_buoys">Buoys</string>
+
+    <!--HOME PAGE-->
+    <string name="flags_Title">Flags</string>
+    <string name="sounds_Title">Sounds</string>
+    <string name="lights_Title">Lights</string>
+    <string name="shapes_Title">Day Shapes</string>
+    <string name="map_Title">Map</string>
+    <string name="buoys_Title">Buoys</string>
+
+    <!--SOUNDS FRAG-->
+    <string name="soundTab1">Anywhere</string>
+    <string name="soundTab2">Fog</string>
+    <string name="soundTab3">Overtaking</string>
+    <!--SOUNDS TAB 1-->
+    <string name="oneshortblast">One Short Blast</string>
+    <string name="oneshortblastmeaning">I am altering my course to Starboard.</string>
+    <string name="twoshortblast">Two Short Blasts</string>
+    <string name="twoshortblastmeaning">I am altering my course to Port.</string>
+    <string name="threeshortblast">Three Short Blasts</string>
+    <string name="threeshortblastmeaning">Operating astern propulsion.</string>
+    <string name="fiveshortblast">Five Short Blasts</string>
+    <string name="fiveshortblastmeaning">I am unsure of your intentions. Keep clear.</string>
+    <string name="onelongblast">One Long Blast</string>
+    <string name="onelongblastmeaning">Be aware of my presence. I am moving.</string>
+    <string name="blasttypeshort">Short blast = around 1 second.</string>
+    <string name="blasttypelong">Long blast = around 4-6 seconds.</string>
+    <!--SOUNDS TAB 2-->
+    <string name="fogonelongblast">One Long Blast</string>
+    <string name="fogonelongblastmeaning">Motor vessel underway in fog. Every 2 minutes.</string>
+    <string name="fogtwolongblast">Two Long Blasts</string>
+    <string name="fogtwolongblastmeaning">Motor vessel - stopped.</string>
+    <string name="fogonelongtwoshortblast">One Long and Two Short Blasts</string>
+    <string name="fogonelongtwoshortblastmeaning">Not under command / Restricted mobility / Constrained by draught.</string>
+    <string name="fogbell">Bell or Gong</string>
+    <string name="fogbellmeaning">Vessel over 100m in length - at anchor.</string>
+    <string name="fogoneshortonelongoneshort">One Short, One Long, and One Short Blast.</string>
+    <string name="fogoneshortonelongoneshortmeaning">Vessel at anchor in restricted visibility, warning of collision.</string>
+    <string name="fogonelongthreeshort">One Long and Three Short Blasts</string>
+    <string name="fogonelongthreeshortmeaning">Vessel at anchor in restricted visibility, warning of collision.</string>
+    <!--SOUNDS TAB 3-->
+    <string name="twolongoneshortblast">Two Long and One Short Blast</string>
+    <string name="twolongoneshortblastmeaning">I intend to overtake you on your Starboard side.</string>
+    <string name="twolongtwoshortblast">Two Long and Two Short Blasts</string>
+    <string name="twolongtwoshortblastmeaning">I intend to overtake you on your Port side.</string>
+    <string name="iagreeblasts">One Long, One Short, One Long, One Short Blast</string>
+    <string name="iagreeblastsmeaning">I agree with your intentions.</string>
+    <!--BUOYS FRAG-->
+    <string name="buoystopdesc">Tap the buoys to see their details!</string>
+    <!--LAT MARK FRAG-->
+    <string name="latFragTitle">Lateral Marks</string>
+    <string name="portlatmarktitle">Port Hand Marks</string>
+    <string name="portlatmarktext">Port lateral marks are always fully red in colour and are in a vertical cylindrical, or can shape. The navigational channel
+        will be on the starboard side of these marks when heading in the direction of buoyage (towards the main harbour). Red Port marks, where numbered, will always be even numbers and may exhibit a
+        red flashing light in varying sequences.</string>
+    <string name="stbdlatmarktitle">Starboard Hand Marks</string>
+    <string name="stbdlatmarktext">Starboard lateral marks are always fully green in colour and are in (or contain) a cone shape. The navigational channel
+        will be on the port side of these marks when heading in the direction of buoyage (towards the main harbour). Green Starboard marks, where numbered, will always be odd numbers and may exhibit a
+        green flashing light in varying sequences.</string>
+    <!--SPECIAL MARK FRAG-->
+    <string name="specialmarktitle">Special Mark</string>
+    <string name="specialmarktext">Special marks are used not for assisting navigation, but for indicating a danger or special area. These areas and points of interest can
+    then be referred to on a nautical chart or Notice to Mariners. They can be in any standard buoy shape, but will be completely yellow and contain a yellow cross on top.
+    Where lit, they produce a yellow flashing sequence which can be varied but will not match any other white flashing navigational mark.</string>
+    <!--CARDINAL FRAG-->
+    <string name="cardinaltitle">Cardinal Marks</string>
+    <string name="cardinalnorthtitle">North Cardinal</string>
+    <string name="cardinalnorthtext">North cardinal marks are used to advise mariners to remain North of the marks to remain in safe water. Dangers
+    are to the south of these marks and can include shipwrecks or rocks. Where lit, it will flash a white light continuously quickly (Ql.Fl) or very quickly (V.Qk.Fl).</string>
+    <string name="cardinaleasttitle">East Cardinal</string>
+    <string name="cardinaleasttext">East cardinal marks are used to advise mariners to remain East of the marks to remain in safe water. Dangers
+    are to the West of these marks and can include shipwrecks or rocks. Where lit, it will flash a white light continuously in a group of 3 flashes
+    (as East can be seen as 03:00 on a clock face).</string>
+    <string name="cardinalsouthtitle">South Cardinal</string>
+    <string name="cardinalsouthtext">South cardinal marks are used to advise mariners to remain South of the marks to remain in safe water. Dangers
+    are to the North of these marks and can include shipwrecks or rocks. Where lit, it will flash a white light continuously in a group of 6 flashes
+    (as South can be seen as 06:00 on a clock face).</string>
+    <string name="cardinalwesttitle">West Cardinal</string>
+    <string name="cardinalwesttext">West cardinal marks are used to advise mariners to remain West of the marks to remain in safe water. Dangers
+    are to the East of these marks and can include shipwrecks or rocks. Where lit, it will flash a white light continuously in a group of 9 flashes
+    (as West can be seen as 09:00 on a clock face).</string>
+    <!--ISOLATED DANGER FRAG-->
+    <string name="isolateddangertitle">Isolated Danger Marks</string>
+    <string name="isolateddangertext">Isolated danger marks are usually placed directly over a shipwreck or other hazard to shipping. They have a black
+        top and bottom, and a red horizontal stripe in the centre. They also have 2 black spheres on top. Where lit, they flash a white light in a group of 2 flashes.</string>
+    <!--EMERGENCY WRECK FRAG-->
+    <string name="emergencywrecktitle">Emergency Wreck Mark</string>
+    <string name="emergencywrecktext">Emergency wreck marks are placed over a new shipwreck or hazard to navigation. They are usually temporary marks until the
+    shipwreck is cleared or other buoys are placed (such as Cardinal Marks or Isolated Danger Marks). They contain 4-8 vertical alternating blue and yellow stripes,
+    and where lit, will display blue and yellow flashing lights which alternate every 0.5 seconds.</string>
+    <!--PREFERRED CHANNEL FRAG-->
+    <string name="prefChanFragTitle">Preferred Channel Marks</string>
+    <string name="portprefmarktitle">Preferred Channel to Port Marks</string>
+    <string name="portprefmarktext">Preferred Channel to Port Marks work the same way as starboard lateral markers, as they show that the preferred channel is to the port of
+        the mark. The difference is that there is also a channel to starboard of the mark which could be taken. Where lit, the marks flash with a green light in a 2+1 pattern.</string>
+    <string name="stbdprefmarktitle">Preferred Channel to Port Marks</string>
+    <string name="stbdprefmarktext">Preferred Channel to Starboard Marks work the same way as port lateral markers, as they show that the preferred channel is to the starboard of
+        the mark. The difference is that there is also a channel to port of the mark which could be taken. Where lit, the marks flash with a red light in a 2+1 pattern.</string>
+    <!--SAFE WATER FRAG-->
+    <string name="safewatertitle">Safe Water Mark</string>
+    <string name="safewatertext">Safe Water Marks are often placed at the outer end of buoyage channels. They show that the area immediately surrounding them has no navigational
+        buoys and is safe to freely navigate. They have vertical red and white stripes and where lit, flash a white light in a pattern of: One long flash every 10 seconds,
+        Isophase (equal light to dark), Occulting (more light than dark), or morse code \'A\' (*-).</string>
+
+</resources>
